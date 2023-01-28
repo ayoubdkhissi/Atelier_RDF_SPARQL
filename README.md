@@ -4,7 +4,6 @@ The following code is provided as support for the RDF-SPARQL workshop conducted 
 
 ## Code Structure
 The code is organized in a way where each query example is inside a static class named "Example(x)" where x represents the example number. Each class has a static function called "Run" which is used to execute the example. In the main program.cs file, you can choose which example to run by uncommenting the appropriate code and running the program
-![Atelier Rdf Sparql - Microsoft Visual Studio 2023-01-28 13-46-13-1](https://user-images.githubusercontent.com/73041562/215267432-1e431c4f-dfb9-4997-be1d-39622f8ea4a9.gif)
 
 
 ## The Schema of IMDB.rdf document
