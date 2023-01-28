@@ -1,0 +1,311 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:movie="http://example.org/movies#"
+    xmlns:actor="http://example.org/actors#"
+    xmlns:genre="http://example.org/genres#">
+
+
+    <!-- LIST OF MOVIES-->
+    <rdf:Description rdf:about="http://example.org/movies#IIOrigins">
+        <movie:title>I Origins</movie:title>
+        <movie:released>2014</movie:released>
+
+        <movie:hasActor rdf:resource="http://example.org/actors#MichaelPitt" />
+        <movie:hasActor rdf:resource="http://example.org/actors#BritMarling" />
+
+        <movie:hasGenre rdf:resource="http://example.org/genres#Drama" />
+        <movie:hasGenre rdf:resource="http://example.org/genres#ScienceFiction" />
+    </rdf:Description>
+    
+
+    <rdf:Description rdf:about="http://example.org/movies#TheImitationGame">
+        <movie:title>The Imitation Game</movie:title>
+        <movie:released>2014</movie:released>
+
+        <movie:hasActor rdf:resource="http://example.org/actors#BenedictCumberbatch" />
+        <movie:hasActor rdf:resource="http://example.org/actors#KeiraKnightley" />
+
+        <movie:hasGenre rdf:resource="http://example.org/genres#Biography" />
+        <movie:hasGenre rdf:resource="http://example.org/genres#Drama" />
+        <movie:hasGenre rdf:resource="http://example.org/genres#History" />
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://example.org/movies#Interstellar">
+        <movie:title>Interstellar</movie:title>
+        <movie:released>2014</movie:released>
+
+        <movie:hasActor rdf:resource="http://example.org/actors#MatthewMcConaughey" />
+        <movie:hasActor rdf:resource="http://example.org/actors#AnneHathaway" />
+        <movie:hasActor rdf:resource="http://example.org/actors#JessicaChastain" />
+        <movie:hasActor rdf:resource="http://example.org/actors#MichaelCaine" />
+        <movie:hasActor rdf:resource="http://example.org/actors#CaseyAffleck" />
+        <movie:hasActor rdf:resource="http://example.org/actors#MackenzieFoy" />
+        <movie:hasActor rdf:resource="http://example.org/actors#TimothéeChalamet" />
+        <movie:hasActor rdf:resource="http://example.org/actors#DavidOyelowo" />
+        <movie:hasActor rdf:resource="http://example.org/actors#WesBentley" />
+        <movie:hasActor rdf:resource="http://example.org/actors#JohnLithgow" />
+        <movie:hasActor rdf:resource="http://example.org/actors#ElyesGabel" />
+        <movie:hasActor rdf:resource="http://example.org/actors#TopherGrace" />
+        <movie:hasActor rdf:resource="http://example.org/actors#DavidGyasi" />
+        <movie:hasActor rdf:resource="http://example.org/actors#EllaSmith" />
+
+        <movie:hasGenre rdf:resource="http://example.org/genres#Adventure" />
+        <movie:hasGenre rdf:resource="http://example.org/genres#Drama" />
+        <movie:hasGenre rdf:resource="http://example.org/genres#ScienceFiction" />
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://example.org/movies#Boyhood">
+        <movie:title>Boyhood</movie:title>
+        <movie:released>2014</movie:released>
+
+        <movie:hasActor rdf:resource="http://example.org/actors#EllarColtrane" />
+        <movie:hasActor rdf:resource="http://example.org/actors#EthanHawke" />
+
+        <movie:hasGenre rdf:resource="http://example.org/genres#Drama" />
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://example.org/movies#TheTheoryOfEverything">
+        <movie:title>The Theory of Everything</movie:title>
+        <movie:released>2014</movie:released>
+
+        <movie:hasActor rdf:resource="http://example.org/actors#EddieRedmayne" />
+        <movie:hasActor rdf:resource="http://example.org/actors#FelicityJones" />
+
+        <movie:hasGenre rdf:resource="http://example.org/genres#Biography" />
+        <movie:hasGenre rdf:resource="http://example.org/genres#Drama" />
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://example.org/movies#TheGrandBudapestHotel">
+        <movie:title>The Grand Budapest Hotel</movie:title>
+        <movie:released>2014</movie:released>
+
+        <movie:hasActor rdf:resource="http://example.org/actors#RalphFiennes" />
+        <movie:hasActor rdf:resource="http://example.org/actors#AdrienBrody" />
+
+        <movie:hasGenre rdf:resource="http://example.org/genres#Comedy" />
+        <movie:hasGenre rdf:resource="http://example.org/genres#Drama" />
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://example.org/movies#TheDreamers">
+        <movie:title>The Dreamers</movie:title>
+        <movie:released>2003</movie:released>
+
+        <movie:hasActor rdf:resource="http://example.org/actors#MichaelPitt" />
+        <movie:hasActor rdf:resource="http://example.org/actors#EvaGreen" />
+
+        <movie:hasGenre rdf:resource="http://example.org/genres#Drama" />
+        <movie:hasGenre rdf:resource="http://example.org/genres#Romance" />
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://example.org/movies#Titanic">
+        <movie:title>Titanic</movie:title>
+        <movie:released>1997</movie:released>
+
+        <movie:hasActor rdf:resource="http://example.org/actors#LeonardoDiCaprio" />
+        <movie:hasActor rdf:resource="http://example.org/actors#KateWinslet" />
+
+        <movie:hasGenre rdf:resource="http://example.org/genres#Drama" />
+        <movie:hasGenre rdf:resource="http://example.org/genres#Romance" />
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://example.org/movies#Inception">
+        <movie:title>Inception</movie:title>
+        <movie:released>2010</movie:released>
+
+        <movie:hasActor rdf:resource="http://example.org/actors#LeonardoDiCaprio" />
+        <movie:hasActor rdf:resource="http://example.org/actors#CillianMurphy" />
+
+        <movie:hasGenre rdf:resource="http://example.org/genres#ScienceFiction" />
+        <movie:hasGenre rdf:resource="http://example.org/genres#Thriller" />
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://example.org/movies#TheGreatGatsby">
+        <movie:title>The Great Gatsby</movie:title>
+        <movie:released>2013</movie:released>
+
+        <movie:hasActor rdf:resource="http://example.org/actors#LeonardoDiCaprio" />
+        <movie:hasActor rdf:resource="http://example.org/actors#Tobey Maguire" />
+
+        <movie:hasGenre rdf:resource="http://example.org/genres#Drama" />
+        <movie:hasGenre rdf:resource="http://example.org/genres#Romance" />
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://example.org/movies#TheGodfather">
+        <movie:title>The Godfather</movie:title>
+        <movie:released>1972</movie:released>
+
+        <movie:hasActor rdf:resource="http://example.org/actors#MarlonBrando" />
+        <movie:hasActor rdf:resource="http://example.org/actors#AlPacino" />
+
+        <movie:hasGenre rdf:resource="http://example.org/genres#Drama" />
+        <movie:hasGenre rdf:resource="http://example.org/genres#Crime" />
+    </rdf:Description>
+
+
+    <!-- LIST OF ACTORS-->
+    <rdf:Description rdf:about="http://example.org/actors#EvaGreen">
+        <actor:name>Eva Green</actor:name>
+    </rdf:Description>
+
+
+    <rdf:Description rdf:about="http://example.org/actors#JessicaChastain">
+        <actor:name>Jessica Chastain</actor:name>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://example.org/actors#MichaelCaine">
+        <actor:name>Michael Caine</actor:name>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://example.org/actors#CaseyAffleck">
+        <actor:name>Casey Affleck</actor:name>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://example.org/actors#MackenzieFoy">
+        <actor:name>Mackenzie Foy</actor:name>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://example.org/actors#TimothéeChalamet">
+        <actor:name>Timothée Chalamet</actor:name>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://example.org/actors#DavidOyelowo">
+        <actor:name>David Oyelowo</actor:name>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://example.org/actors#WesBentley">
+        <actor:name>Wes Bentley</actor:name>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://example.org/actors#JohnLithgow">
+        <actor:name>John Lithgow</actor:name>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://example.org/actors#ElyesGabel">
+        <actor:name>Elyes Gabel</actor:name>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://example.org/actors#TopherGrace">
+        <actor:name>Topher Grace</actor:name>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://example.org/actors#DavidGyasi">
+        <actor:name>David Gyasi</actor:name>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://example.org/actors#Bill Irwin">
+        <actor:name>Bill Irwin</actor:name>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://example.org/actors#EllaSmith">
+        <actor:name>Ella Smith</actor:name>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://example.org/actors#LeonardoDiCaprio">
+        <actor:name>Leonardo DiCaprio</actor:name>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://example.org/actors#KateWinslet">
+        <actor:name>Kate Winslet</actor:name>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://example.org/actors#CillianMurphy">
+        <actor:name>Cillian Murphy</actor:name>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://example.org/actors#TobeyMaguire">
+        <actor:name>Tobey Maguire</actor:name>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://example.org/actors#MarlonBrando">
+        <actor:name>Marlon Brando</actor:name>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://example.org/actors#AlPacino">
+        <actor:name>Al Pacino</actor:name>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://example.org/actors#MichaelPitt">
+        <actor:name>Michael Pitt</actor:name>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://example.org/actors#BritMarling">
+        <actor:name>Brit Marling</actor:name>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://example.org/actors#BenedictCumberbatch">
+        <actor:name>Benedict Cumberbatch</actor:name>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://example.org/actors#KeiraKnightley">
+        <actor:name>Keira Knightley</actor:name>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://example.org/actors#MatthewMcConaughey">
+        <actor:name>Matthew McConaughey</actor:name>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://example.org/actors#AnneHathaway">
+        <actor:name>Anne Hathaway</actor:name>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://example.org/actors#EllarColtrane">
+        <actor:name>Ellar Coltrane</actor:name>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://example.org/actors#EthanHawke">
+        <actor:name>Ethan Hawke</actor:name>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://example.org/actors#EddieRedmayne">
+        <actor:name>Eddie Redmayne</actor:name>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://example.org/actors#FelicityJones">
+        <actor:name>Felicity Jones</actor:name>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://example.org/actors#RalphFiennes">
+        <actor:name>Ralph Fiennes</actor:name>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://example.org/actors#AdrienBrody">
+        <actor:name>Adrien Brody</actor:name>
+    </rdf:Description>
+
+
+    <!-- LIST OF GENRES-->
+    <rdf:Description rdf:about="http://example.org/genres#Drama">
+        <genre:name>Drama</genre:name>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://example.org/genres#Crime">
+        <genre:name>Crime</genre:name>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://example.org/genres#ScienceFiction">
+        <genre:name>Science Fiction</genre:name>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://example.org/genres#Romance">
+        <genre:name>Romance</genre:name>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://example.org/genres#Thriller">
+        <genre:name>Thriller</genre:name>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://example.org/genres#History">
+        <genre:name>History</genre:name>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://example.org/genres#Biography">
+        <genre:name>Biography</genre:name>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://example.org/genres#Adventure">
+        <genre:name>Adventure</genre:name>
+    </rdf:Description>
+
+
+</rdf:RDF>
